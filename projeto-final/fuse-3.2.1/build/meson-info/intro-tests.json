@@ -1,1 +1,0 @@
-[{"cmd": ["/home/parallels/Desktop/projeto-final/fuse-3.2.1/build/test/wrong_command"], "env": {}, "name": "wrong_cmd", "workdir": null, "timeout": 30, "suite": ["libfuse3"], "is_parallel": true, "priority": 0, "protocol": "exitcode"}]
