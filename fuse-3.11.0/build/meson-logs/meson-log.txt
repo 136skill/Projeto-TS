@@ -1,0 +1,702 @@
+Build started at 2022-05-31T22:30:30.129296
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /home/parallels/Desktop/TS/fuse-3.11.0
+Build dir: /home/parallels/Desktop/TS/fuse-3.11.0/build
+Build type: native build
+Project name: libfuse3
+Project version: 3.11.0
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/sanitycheckc.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 9.3.0 "cc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0")
+C linker for the build machine: cc ld.bfd 2.34
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/sanitycheckc.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 9.3.0 "cc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0")
+C linker for the host machine: cc ld.bfd 2.34
+Build machine cpu family: aarch64
+Build machine cpu: aarch64
+Host machine cpu family: aarch64
+Host machine cpu: aarch64
+Target machine cpu family: aarch64
+Target machine cpu: aarch64
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp4_qcam4c
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp4_qcam4c/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp4_qcam4c/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <limits.h>
+
+        #if defined __stub_fork || defined __stub___fork
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &fork;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "fork" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp1k1l5vd9
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp1k1l5vd9/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp1k1l5vd9/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <limits.h>
+
+        #if defined __stub_fstatat || defined __stub___fstatat
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &fstatat;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "fstatat" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp7u_j0qwt
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp7u_j0qwt/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp7u_j0qwt/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <limits.h>
+
+        #if defined __stub_openat || defined __stub___openat
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &openat;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "openat" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp2l_c4noe
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp2l_c4noe/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp2l_c4noe/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <limits.h>
+
+        #if defined __stub_readlinkat || defined __stub___readlinkat
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &readlinkat;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "readlinkat" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmps0sgkdz0
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmps0sgkdz0/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmps0sgkdz0/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <limits.h>
+
+        #if defined __stub_pipe2 || defined __stub___pipe2
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &pipe2;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "pipe2" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmparlko2ss
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmparlko2ss/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmparlko2ss/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <limits.h>
+
+        #if defined __stub_splice || defined __stub___splice
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &splice;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "splice" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmppukgcqiw
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmppukgcqiw/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmppukgcqiw/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <limits.h>
+
+        #if defined __stub_vmsplice || defined __stub___vmsplice
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &vmsplice;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "vmsplice" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp6_rbafb7
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp6_rbafb7/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp6_rbafb7/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <limits.h>
+
+        #if defined __stub_posix_fallocate || defined __stub___posix_fallocate
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &posix_fallocate;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "posix_fallocate" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmph41wgdbh
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmph41wgdbh/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmph41wgdbh/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <limits.h>
+
+        #if defined __stub_fdatasync || defined __stub___fdatasync
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &fdatasync;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "fdatasync" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpt6ewyqy0
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpt6ewyqy0/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpt6ewyqy0/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <limits.h>
+
+        #if defined __stub_utimensat || defined __stub___utimensat
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &utimensat;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "utimensat" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpf6_0a4iu
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpf6_0a4iu/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpf6_0a4iu/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <limits.h>
+
+        #if defined __stub_copy_file_range || defined __stub___copy_file_range
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &copy_file_range;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "copy_file_range" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprz5vwbv5
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprz5vwbv5/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprz5vwbv5/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include <limits.h>
+
+        #if defined __stub_fallocate || defined __stub___fallocate
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &fallocate;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "fallocate" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpcasvy0s6
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpcasvy0s6/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpcasvy0s6/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <sys/xattr.h>
+#include <limits.h>
+
+        #if defined __stub_setxattr || defined __stub___setxattr
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &setxattr;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "setxattr" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpg63czxgz
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpg63czxgz/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpg63czxgz/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <iconv.h>
+#include <limits.h>
+
+        #if defined __stub_iconv || defined __stub___iconv
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &iconv;
+            long b = (long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "iconv" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpmmehomfi
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpmmehomfi/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpmmehomfi/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+        void bar(void) {
+            struct stat foo;
+            foo.st_atim;
+
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking whether type "struct stat" has member "st_atim" : YES 
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqj4e2ih
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqj4e2ih/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqj4e2ih/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+
+Code:
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+        void bar(void) {
+            struct stat foo;
+            foo.st_atimespec;
+
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqj4e2ih/testfile.c: In function 'bar':
+/home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqj4e2ih/testfile.c:12:16: error: 'struct stat' has no member named 'st_atimespec'
+   12 |             foo.st_atimespec;
+      |                ^
+
+Checking whether type "struct stat" has member "st_atimespec" : NO 
+Configuring config.h using configuration
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpecfwksqu
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpecfwksqu/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpecfwksqu/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -O0 -Werror=unused-result 
+
+Code:
+ 
+__attribute__((warn_unused_result)) int get_4() {
+    return 4;
+}
+int main(void) {
+    (void) get_4();
+    return 0;
+}
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpecfwksqu/testfile.c: In function 'main':
+/home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpecfwksqu/testfile.c:6:12: error: ignoring return value of 'get_4', declared with attribute warn_unused_result [-Werror=unused-result]
+    6 |     (void) get_4();
+      |            ^~~~~~~
+cc1: some warnings being treated as errors
+
+Message: Compiler warns about unused result even when casting to void
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp619ea41v
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp619ea41v/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp619ea41v/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -O0 -Werror 
+
+Code:
+ 
+__attribute__ ((symver ("test@TEST")))
+void foo(void) {
+}
+
+int main(void) {
+    return 0;
+}
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp619ea41v/testfile.c:3:1: error: 'symver' attribute directive ignored [-Werror=attributes]
+    3 | void foo(void) {
+      | ^~~~
+cc1: all warnings being treated as errors
+
+Message: Compiler does not support symver attribute
+Run-time dependency threads found: YES
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpp2esh3ju
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpp2esh3ju/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpp2esh3ju/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -liconv -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpil_q82qo
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpil_q82qo/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpil_q82qo/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpljra6vix
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpljra6vix/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpljra6vix/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/aarch64-linux-gnu/9/
+programs: =/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/9/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/9/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Library iconv found: NO
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpq3wtb854
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpq3wtb854/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpq3wtb854/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library dl found: YES
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpxc865ow9
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpxc865ow9/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpxc865ow9/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrt -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rt found: YES
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'udev' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion udev` -> 0
+245
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags udev` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config udev --libs` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config udev --libs` -> 0
+
+Run-time dependency udev found: YES 245
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=udevdir udev` -> 0
+/lib/udev
+Got pkgconfig variable udevdir : /lib/udev
+Program install_helper.sh found: YES (/home/parallels/Desktop/TS/fuse-3.11.0/util/install_helper.sh)
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/sanitycheckcpp.cc -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (gcc 9.3.0 "c++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0")
+C++ linker for the build machine: c++ ld.bfd 2.34
+No CXXFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/sanitycheckcpp.cc -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 9.3.0 "c++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0")
+C++ linker for the host machine: c++ ld.bfd 2.34
+Adding test "wrong_command"
+Build targets in project: 27
+
+Found ninja-1.10.0 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmp95xzftbi
+Command line:  c++ /tmp/tmp95xzftbi/testfile.cpp -o /tmp/tmp95xzftbi/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++11 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++11: YES
+Running compile:
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpy9ao9ake
+Command line:  c++ /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpy9ao9ake/testfile.cpp -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpy9ao9ake/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/aarch64-linux-gnu/9/
+programs: =/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/9/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../lib/:/lib/aarch64-linux-gnu/9/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/9/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../../aarch64-linux-gnu/lib/:/usr/lib/gcc/aarch64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
