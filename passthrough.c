@@ -294,29 +294,6 @@ static int xmp_create(const char *path, mode_t mode,
 	return 0;
 }
 
-int send_email(char*email,char*password ){
-
-	char* message = malloc(300);
-    strcpy(message,"From:Lib_fuse \nSubject: Password para abertura de ficheiro!\n\nUtilize esta palavra-passe para abrir o ficheiro:\n");
-    strcat(message, password);
-	
-	int fd[2];
-	pipe(fd);
-
-	dup2(fd[0], 0);
-
-	write(fd[1], message, strlen(message));
-	close(fd[1]);
-	char* final = malloc(100);
-	strcpy(final,"sendmail ");
-	strcat(final,email);
-	printf("%s\n",final);
-	system(final);
-	return 1;
-
-}
-
-
 
  char *gera_password(char *str, size_t size)
 {
@@ -425,7 +402,6 @@ static int xmp_open(const char *path, struct fuse_file_info *fi)
    		printf("Autenticado com sucesso:\n");
    		//gerar e enviar senha
  		char* senha = string_alloc(7);
-   		//send_email(credenciais[2],senha);
    		
    		
    		char* init = malloc(100);

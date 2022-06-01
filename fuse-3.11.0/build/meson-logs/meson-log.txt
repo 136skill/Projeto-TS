@@ -1,4 +1,4 @@
-Build started at 2022-05-31T22:30:30.129296
+Build started at 2022-06-01T17:14:59.013463
 Main binary: /usr/bin/python3
 Build Options: 
 Python system: Linux
@@ -46,8 +46,8 @@ Host machine cpu: aarch64
 Target machine cpu family: aarch64
 Target machine cpu: aarch64
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp4_qcam4c
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp4_qcam4c/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp4_qcam4c/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp6uu0dxyw
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp6uu0dxyw/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp6uu0dxyw/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -76,8 +76,8 @@ Compiler stderr:
  
 Checking for function "fork" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp1k1l5vd9
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp1k1l5vd9/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp1k1l5vd9/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp864ltk_6
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp864ltk_6/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp864ltk_6/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -106,8 +106,8 @@ Compiler stderr:
  
 Checking for function "fstatat" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp7u_j0qwt
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp7u_j0qwt/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp7u_j0qwt/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpgw6zpj4k
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpgw6zpj4k/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpgw6zpj4k/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -136,8 +136,8 @@ Compiler stderr:
  
 Checking for function "openat" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp2l_c4noe
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp2l_c4noe/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp2l_c4noe/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprdv3cb8h
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprdv3cb8h/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprdv3cb8h/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -166,8 +166,8 @@ Compiler stderr:
  
 Checking for function "readlinkat" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmps0sgkdz0
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmps0sgkdz0/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmps0sgkdz0/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpi0fxr7b3
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpi0fxr7b3/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpi0fxr7b3/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -196,8 +196,8 @@ Compiler stderr:
  
 Checking for function "pipe2" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmparlko2ss
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmparlko2ss/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmparlko2ss/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpg4ik37x9
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpg4ik37x9/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpg4ik37x9/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -226,8 +226,8 @@ Compiler stderr:
  
 Checking for function "splice" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmppukgcqiw
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmppukgcqiw/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmppukgcqiw/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpia_e8hf2
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpia_e8hf2/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpia_e8hf2/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -256,8 +256,8 @@ Compiler stderr:
  
 Checking for function "vmsplice" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp6_rbafb7
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp6_rbafb7/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp6_rbafb7/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprxd9_pnc
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprxd9_pnc/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprxd9_pnc/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -286,8 +286,8 @@ Compiler stderr:
  
 Checking for function "posix_fallocate" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmph41wgdbh
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmph41wgdbh/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmph41wgdbh/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp3bdgz8p_
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp3bdgz8p_/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp3bdgz8p_/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -316,8 +316,8 @@ Compiler stderr:
  
 Checking for function "fdatasync" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpt6ewyqy0
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpt6ewyqy0/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpt6ewyqy0/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp9sd6qva4
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp9sd6qva4/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp9sd6qva4/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -346,8 +346,8 @@ Compiler stderr:
  
 Checking for function "utimensat" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpf6_0a4iu
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpf6_0a4iu/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpf6_0a4iu/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpjwnrba5x
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpjwnrba5x/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpjwnrba5x/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -376,8 +376,8 @@ Compiler stderr:
  
 Checking for function "copy_file_range" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprz5vwbv5
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprz5vwbv5/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprz5vwbv5/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp6w30_l_9
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp6w30_l_9/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp6w30_l_9/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -406,8 +406,8 @@ Compiler stderr:
  
 Checking for function "fallocate" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpcasvy0s6
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpcasvy0s6/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpcasvy0s6/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp8zr4yyr0
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp8zr4yyr0/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp8zr4yyr0/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
 
 Code:
  #include <sys/xattr.h>
@@ -428,8 +428,8 @@ Compiler stderr:
  
 Checking for function "setxattr" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpg63czxgz
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpg63czxgz/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpg63czxgz/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpn9d_8z4a
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpn9d_8z4a/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpn9d_8z4a/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
 
 Code:
  #include <iconv.h>
@@ -450,8 +450,8 @@ Compiler stderr:
  
 Checking for function "iconv" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpmmehomfi
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpmmehomfi/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpmmehomfi/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqoup0w9
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqoup0w9/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqoup0w9/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -474,8 +474,8 @@ Compiler stderr:
  
 Checking whether type "struct stat" has member "st_atim" : YES 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqj4e2ih
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqj4e2ih/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqj4e2ih/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp9s_58852
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp9s_58852/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp9s_58852/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -D_GNU_SOURCE 
 
 Code:
  
@@ -495,16 +495,16 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqj4e2ih/testfile.c: In function 'bar':
-/home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmprqj4e2ih/testfile.c:12:16: error: 'struct stat' has no member named 'st_atimespec'
+ /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp9s_58852/testfile.c: In function 'bar':
+/home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp9s_58852/testfile.c:12:16: error: 'struct stat' has no member named 'st_atimespec'
    12 |             foo.st_atimespec;
       |                ^
 
 Checking whether type "struct stat" has member "st_atimespec" : NO 
 Configuring config.h using configuration
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpecfwksqu
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpecfwksqu/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpecfwksqu/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -O0 -Werror=unused-result 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmppdbod43a
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmppdbod43a/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmppdbod43a/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -O0 -Werror=unused-result 
 
 Code:
  
@@ -518,16 +518,16 @@ int main(void) {
 Compiler stdout:
  
 Compiler stderr:
- /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpecfwksqu/testfile.c: In function 'main':
-/home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpecfwksqu/testfile.c:6:12: error: ignoring return value of 'get_4', declared with attribute warn_unused_result [-Werror=unused-result]
+ /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmppdbod43a/testfile.c: In function 'main':
+/home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmppdbod43a/testfile.c:6:12: error: ignoring return value of 'get_4', declared with attribute warn_unused_result [-Werror=unused-result]
     6 |     (void) get_4();
       |            ^~~~~~~
 cc1: some warnings being treated as errors
 
 Message: Compiler warns about unused result even when casting to void
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp619ea41v
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp619ea41v/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp619ea41v/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -O0 -Werror 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpa10zb7m_
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpa10zb7m_/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpa10zb7m_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -O0 -Werror 
 
 Code:
  
@@ -541,7 +541,7 @@ int main(void) {
 Compiler stdout:
  
 Compiler stderr:
- /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp619ea41v/testfile.c:3:1: error: 'symver' attribute directive ignored [-Werror=attributes]
+ /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpa10zb7m_/testfile.c:3:1: error: 'symver' attribute directive ignored [-Werror=attributes]
     3 | void foo(void) {
       | ^~~~
 cc1: all warnings being treated as errors
@@ -549,8 +549,8 @@ cc1: all warnings being treated as errors
 Message: Compiler does not support symver attribute
 Run-time dependency threads found: YES
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpp2esh3ju
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpp2esh3ju/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpp2esh3ju/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -liconv -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpxiy3r43k
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpxiy3r43k/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpxiy3r43k/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -liconv -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(void) { return 0; }
@@ -561,8 +561,8 @@ Compiler stderr:
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpil_q82qo
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpil_q82qo/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpil_q82qo/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpimd3dxue
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpimd3dxue/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpimd3dxue/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
 
 Code:
  #include<stdio.h>
@@ -583,8 +583,8 @@ Program stderr:
 
 
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpljra6vix
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpljra6vix/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpljra6vix/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpvt9ejqu9
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpvt9ejqu9/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpvt9ejqu9/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
 
 Code:
  
@@ -597,8 +597,8 @@ Compiler stderr:
  
 Library iconv found: NO
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpq3wtb854
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpq3wtb854/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpq3wtb854/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpm1jwnjpf
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpm1jwnjpf/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpm1jwnjpf/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(void) { return 0; }
@@ -608,8 +608,8 @@ Compiler stderr:
  
 Library dl found: YES
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpxc865ow9
-Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpxc865ow9/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpxc865ow9/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrt -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp521x31oi
+Command line:  cc /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp521x31oi/testfile.c -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmp521x31oi/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrt -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(void) { return 0; }
@@ -677,8 +677,8 @@ Build targets in project: 27
 
 Found ninja-1.10.0 at /usr/bin/ninja
 Running compile:
-Working directory:  /tmp/tmp95xzftbi
-Command line:  c++ /tmp/tmp95xzftbi/testfile.cpp -o /tmp/tmp95xzftbi/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++11 
+Working directory:  /tmp/tmp9921hj88
+Command line:  c++ /tmp/tmp9921hj88/testfile.cpp -o /tmp/tmp9921hj88/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++11 
 
 Code:
  int i = static_cast<int>(0);
@@ -688,8 +688,8 @@ Compiler stderr:
  
 Compiler accepts -std=c++11: YES
 Running compile:
-Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpy9ao9ake
-Command line:  c++ /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpy9ao9ake/testfile.cpp -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpy9ao9ake/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+Working directory:  /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpcl6zwk2_
+Command line:  c++ /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpcl6zwk2_/testfile.cpp -o /home/parallels/Desktop/TS/fuse-3.11.0/build/meson-private/tmpcl6zwk2_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
 
 Code:
  
