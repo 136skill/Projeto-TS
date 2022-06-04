@@ -319,7 +319,7 @@ char* string_alloc(size_t size)
      return s;
 }
 
-int verifica_credenciais (char credenciais[3][100], char* myuser, char* mypass) {
+int verifica_credenciais (char credenciais[4][100], char* myuser, char* mypass) {
 	int guardar=0;
 	printf("User recebido:%s\n",myuser);
 	printf("Pass recebida %s\n",mypass);
@@ -332,10 +332,9 @@ int verifica_credenciais (char credenciais[3][100], char* myuser, char* mypass) 
       	int i=0;
       	char *token;
       	token = strtok(line, ",");
-      	printf(token);
       	
       	while( token != NULL ) {
-
+		
       		int x = strcmp(myuser, token);
 
       		if (x==0) {
@@ -343,6 +342,7 @@ int verifica_credenciais (char credenciais[3][100], char* myuser, char* mypass) 
       			
       		}
       		if(guardar) {
+      			printf(token);
       			strcpy(credenciais[i],token);
       			i++;
 
@@ -350,6 +350,8 @@ int verifica_credenciais (char credenciais[3][100], char* myuser, char* mypass) 
 	        token = strtok(NULL, ",");
 
   	 	}
+  	 	
+  	        
   	 	if (guardar) {
   	 		if (strcmp(credenciais[1],mypass)==0){
   	 			return 1;
@@ -372,9 +374,72 @@ int verifica_credenciais (char credenciais[3][100], char* myuser, char* mypass) 
 
 }
 
+int verifica_acesso (char* id , char* path) {
+	int guardar=0;
+	char acesso[5][100];
+	printf("User recebido:%s\n",id);
+	printf("Path recebida %s\n",path);
+	
+  
+   FILE *file = fopen ( "/Teste/permission.txt", "r" );
+   if ( file != NULL )
+   {
+      char line [ 128 ]; 
+      while ( fgets ( line, sizeof line, file ) != NULL ) 
+      {
+      	int i=0;
+      	int j=0; 
+      	char *token;
+      	token = strtok(line, ",");
+      	
+      	while( token != NULL ) {
+		
+      		int x = strcmp(path, token);
+
+      		if (x==0) {
+      			guardar=1;
+      			
+      		}
+      		if(guardar) {
+      			printf(token);
+      			strcpy(acesso[i],token);
+      			i++;
+
+      		}
+	        token = strtok(NULL, ",");
+
+  	 	}
+  	 	
+  	        
+  	 	if (guardar) {
+  	 		for(j=0;j<5;j++){
+  	 			if (strcmp(acesso[j], id)==0){
+  	 				return 1;
+  	 			}
+  	 		}
+  	 	
+  	 	printf("Erro autenticação!\n");
+  	 	return -errno;
+  	 		
+  	 	}
+
+     }
+      fclose ( file );
+   }
+   else
+   {
+  	 return -errno;
+      //perror ( filename ); 
+   }
+	return 0;
+
+}
+
+
+
 static int xmp_open(const char *path, struct fuse_file_info *fi)
-{	int autenticado=0,res;
-	char credenciais[3][100];
+{	int autenticado=0,res, access=0;
+	char credenciais[4][100];
 	int fd[2],fd2[2];
 	char user[100],pass[100],recebida[100];
 	
@@ -392,21 +457,31 @@ static int xmp_open(const char *path, struct fuse_file_info *fi)
 	char* myuser = strtok(user, "\n");
 	char* mypass = strtok(pass, "\n");
 
-  	// verificar dados
+  	// Verifica autenticacao
   	autenticado = verifica_credenciais(credenciais,myuser,mypass);
-  	//printf(credenciais[0]);
-  	//printf(credenciais[1]);
-  	//printf(credenciais[2]);
-
-   if (autenticado == 1) {
+  	
+  	printf("ID do utilizador ");
+  	printf(credenciais[3]);
+  	printf("\n");
+  	
+  	//Verifica autorizacao
+  	access = verifica_acesso(credenciais[3],path);
+  	
+  	
+   if (access != 1) {
+ 	printf("Acesso negado\n");
+ 	system("zenity --error --text=\"Nao tem autorizacao para aceder a este ficheiro\"");
+ 	return -errno;
+   }	
+  	
+   else if (autenticado == 1) {
    		printf("Autenticado com sucesso:\n");
    		//gerar e enviar senha
  		char* senha = string_alloc(7);
    		
    		
    		char* init = malloc(100);
-   		strcat(init,"cd | python3 /home/parallels/Desktop/TS/sms.py ");
-   	        //strcat(init,"python3 auth.py ");
+   		strcat(init,"cd | python3 /home/parallels/Desktop/temporario/sms.py ");
    		strcat(init, credenciais[2]);
    		//strcat(init, "+351961150609");
    		strcat(init , " ");
@@ -415,15 +490,12 @@ static int xmp_open(const char *path, struct fuse_file_info *fi)
    		printf(credenciais[2]);
 
 
-   		//execl("python3", "python3", "/home/parallels/Desktop/projeto-final/auth.py", credenciais[2], senha, (char *) NULL);
-
-
    		// pedir senha
    		pipe(fd2);
 		int save3 = dup(1);
 		dup2(fd2[1],1);
 		dup2(fd2[0], 2);
-		system("answer=$(zenity --timeout=60 --entry --text=\"Senha recebida\" --title=\"Introduza a senha recebida por email!\"); echo $answer;");
+		system("answer=$(zenity --timeout=60 --password --text=\"Senha recebida\" --title=\"Introduza a senha recebida por email!\"); echo $answer;");
 		read(fd2[0], recebida,7);
 		dup2(save3,1);
 		close(fd2[1]);
@@ -449,7 +521,7 @@ static int xmp_open(const char *path, struct fuse_file_info *fi)
    	return -errno;
    }
 
-   //Enviar o mail
+   
 
 	res = open(path, fi->flags);
 	if (res == -1)
