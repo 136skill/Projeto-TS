@@ -19,7 +19,7 @@ senha = sys.argv[2]
 
 message = client.messages.create(  
                               messaging_service_sid='MGe780a398fc76f28a38c00ffb4c9ea772', 
-                              body='Senha' + senha,      
+                              body='Senha ' + senha,      
                               to= phone
                           ) 
 
