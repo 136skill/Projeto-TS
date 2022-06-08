@@ -481,7 +481,7 @@ static int xmp_open(const char *path, struct fuse_file_info *fi)
    		
    		
    		char* init = malloc(100);
-   		strcat(init,"cd | python3 /home/parallels/Desktop/temporario/sms.py ");
+   		strcat(init,"cd | python3 /home/parallels/Desktop/TS/sms.py ");
    		strcat(init, credenciais[2]);
    		//strcat(init, "+351961150609");
    		strcat(init , " ");

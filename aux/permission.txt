@@ -1,4 +1,4 @@
 /.kmods.list,0,1,
 /Teste/ficheiro.txt,0,1,
 /Teste/autenticacao.txt,0,
-/Teste/permission.txt,0
+/Teste/permission.txt,0,
